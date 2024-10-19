@@ -1,0 +1,32 @@
+@media (max-width: 768px){
+  .home__content h1 {
+    font-size: 36px;  // Ajuster la taille du texte sur mobile
+  }
+}
+
+.home {
+    background-image: url('../images/background-home.png');  // Chemin de l'image
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8) contrast(1.2); // Ajuste la luminosité et le contraste
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .home__content {
+    max-width: 800px;                // Largeur maximale du contenu pour ne pas déborder
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);  // Légère transparence pour faire ressortir le texte
+    border-radius: 10px;
+  }
+
+  .home__content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);  // Ajouter une ombre portée pour contraster le texte
+  }
+  

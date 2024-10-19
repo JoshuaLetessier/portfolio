@@ -1,0 +1,17 @@
+@import 'header';
+@import 'home';
+@import 'contact';
+@import 'about';
+
+html, body {
+    height: 100%;       // Assure que la hauteur du body et du html occupent toute la page
+    overflow: hidden;   // Empêche le défilement
+    margin: 0;          // Retire les marges par défaut
+    padding: 0;
+  }
+  
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
